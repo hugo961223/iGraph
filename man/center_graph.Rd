@@ -19,7 +19,7 @@ in the setting of latent space graph models.}
 \code{center_graph} returns a centered adjacency matrix. 'Naive' scheme returns the
 original adjacency matrix. 'Center' scheme returns a centered adjacency matrix with entries
 equal to -1 or 1 where 1 corresponds to an edge. Scheme specified by a number returns a centered
-adjacency matrix, which is calcalated by: A - \hat{Q}, where \hat{Q} is an approximate
+adjacency matrix, which is calcalated by: A - Q, where Q is an approximate
 estimation of the expectation of A by using Universal Singular Value Thresholding.
 }
 \description{
